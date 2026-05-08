@@ -135,9 +135,9 @@ var SONGS = {
 
   neutral: {
     file     : 'biasa.wav',
-    title    : 'Find All The Answers',
+    title    : 'Love song-Grrrl Gang',
     artist   : 'buat Shiraa 🌿',
-    emoji    : '🥶',
+    emoji    : '🙊',
     headline : 'uhh dingin nyooyyy',
     lyrics   : [
       { time: 12,  text: "Heaven sighs when you look into my eyes",             emoji: '😇' },
