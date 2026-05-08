@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <title>A Little Survey 🌸</title>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,500;1,300&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -18,7 +18,6 @@
     </div>
 
     <div class="card">
-      <!-- Q1 -->
       <div id="q1">
         <div class="question-num">Welcome 🌸</div>
         <div class="question-text">Hello, <em>Shiraa</em> — may I ask you a few questions?</div>
@@ -28,7 +27,6 @@
         </div>
       </div>
 
-      <!-- Q2 -->
       <div id="q2" style="display:none">
         <div class="question-num">Question 1 of 2</div>
         <div class="question-text">dimana <em>kamu sekarang?</em></div>
@@ -47,7 +45,6 @@
         </div>
       </div>
 
-      <!-- Q3 -->
       <div id="q3" style="display:none">
         <div class="question-num">Question 2 of 2</div>
         <div class="question-text">Bagaimana <em>perasaan</em> mu saat ini?</div>
@@ -66,7 +63,7 @@
           </div>
         </div>
         <div class="btn-wrap">
-          <button class="btn-next" onclick="showVideoPage()">Done 🌸</button>
+          <button class="btn-next" onclick="goToSong()">Done 🌸</button>
         </div>
       </div>
 
@@ -78,56 +75,9 @@
     </div>
   </div>
 
-  <!-- VIDEO PAGE -->
-  <div id="videoPage" style="display:none;width:100%;">
+  <!-- SONG PAGE -->
+  <div id="songPage" style="display:none;width:100%;min-height:100vh;"></div>
 
-    <!-- Happy -->
-    <div id="vp-happy" class="vp-screen" style="display:none;background:linear-gradient(160deg,#ffe0a3,#ffd6e0);">
-      <div class="vp-inner">
-        <div class="vp-emoji">🎉</div>
-        <h2 class="vp-title happy-title">Anjay lagi happy nih yee!</h2>
-        <div class="vp-video-box">
-          <video id="vid-happy" class="vp-video" controls playsinline autoplay loop>
-            <source src="happy.mp4" type="video/mp4" />
-          </video>
-          <div class="unmute-hint" id="hint-happy" onclick="unmuteVideo('vid-happy','hint-happy')">🔇 Tap to unmute</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Neutral -->
-    <div id="vp-neutral" class="vp-screen" style="display:none;background:linear-gradient(160deg,#e0eaff,#f0e8ff);">
-      <div class="vp-inner">
-        <div class="vp-emoji">🥶</div>
-        <h2 class="vp-title neutral-title">uhh dingin nyooyyy</h2>
-        <div class="vp-video-box">
-          <video id="vid-neutral" class="vp-video" controls playsinline autoplay loop>
-            <source src="dingin.mp4" type="video/mp4" />
-          </video>
-          <div class="unmute-hint" id="hint-neutral" onclick="unmuteVideo('vid-neutral','hint-neutral')">🔇 Tap to unmute</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Sad -->
-    <div id="vp-sad" class="vp-screen" style="display:none;background:linear-gradient(160deg,#dce8ff,#e8d8f8);">
-      <div class="vp-inner">
-        <div class="vp-emoji">🫂</div>
-        <h2 class="vp-title sad-title">nooo jangan cedihh</h2>
-        <div class="vp-video-box">
-          <video id="vid-sad" class="vp-video" controls playsinline autoplay loop>
-            <source src="cedih.mp4" type="video/mp4" />
-          </video>
-          <div class="unmute-hint" id="hint-sad" onclick="unmuteVideo('vid-sad','hint-sad')">🔇 Tap to unmute</div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <script src="script.js">
-    
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
