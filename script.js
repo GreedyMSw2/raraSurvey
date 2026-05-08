@@ -135,8 +135,8 @@ var SONGS = {
 
   neutral: {
     file     : 'biasa.wav',
-    title    : 'Love song-Grrrl Gang',
-    artist   : 'buat Shiraa 🌿',
+    title    : 'Love song',
+    artist   : 'Grrrl Gang',
     emoji    : '🙊',
     headline : 'uhh dingin nyooyyy',
     lyrics   : [
@@ -157,8 +157,8 @@ var SONGS = {
 
   sad: {
     file     : 'seih.wav',
-    title    : "I'll Be There For You",
-    artist   : 'buat Shiraa 🫂',
+    title    : "Landslide",
+    artist   : 'Oh wonder',
     emoji    : '🫂',
     headline : 'nooo jangan cedihh',
     lyrics   : [
